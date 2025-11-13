@@ -1,0 +1,57 @@
+name: hclmnet
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.10
+
+  # ---------------------------
+  # PyTorch + CUDA
+  # ---------------------------
+  - pytorch=2.1.0
+  - torchvision=0.16.0
+  - torchaudio=2.1.0
+  - pytorch-cuda=11.8
+
+  # ---------------------------
+  # Core Scientific Libraries
+  # ---------------------------
+  - numpy>=1.26
+  - scipy>=1.11
+  - scikit-learn>=1.3
+  - pandas>=2.1
+
+  # ---------------------------
+  # Visualization
+  # ---------------------------
+  - matplotlib>=3.8
+  - seaborn>=0.13
+
+  # ---------------------------
+  # Jupyter + Notebook
+  # ---------------------------
+  - jupyterlab>=4.0
+  - ipykernel
+  - notebook>=7.0
+
+  # ---------------------------
+  # YAML / Utilities
+  # ---------------------------
+  - pyyaml>=6.0
+  - tqdm>=4.66
+  - pip
+
+  # ---------------------------
+  # Pip Packages
+  # ---------------------------
+  - pip:
+      - timm==0.9.12            # Swin Transformer
+      - transformers>=4.40.0    # XLNet / HuggingFace
+      - lifelines>=0.28.0       # CoxPH Survival
+      - opencv-python>=4.8.0
+      - pillow>=10.0.0
+      - einops>=0.7.0           # for fusion layers
+      - tensorboard>=2.15.0
