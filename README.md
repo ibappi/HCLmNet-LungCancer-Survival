@@ -92,9 +92,13 @@ HCLmNet-LungCancer-Survival/
 If you use this code or any part of the HCLmNet framework in your research, please cite the following manuscript:
 
 ```bibtex
-@article{bappi2025hclmnet,
-  title={Hybrid Continual Learning Multimodal Network for Lung Cancer Survival Prediction},
-  author={Bappi, Ilias and et al.},
-  journal={Manuscript under review},
-  year={2025}
+@article{bappi2026hclmnet,
+  title={HCLmNet: A unified hybrid continual learning strategy multimodal network for lung cancer survival prediction},
+  author={Bappi, MD Ilias and Richter, David J and Kolekar, Shivani Sanjay and Kim, Kyungbaek},
+  journal={PLoS One},
+  volume={21},
+  number={3},
+  pages={e0316509},
+  year={2026},
+  publisher={Public Library of Science San Francisco, CA USA}
 }
